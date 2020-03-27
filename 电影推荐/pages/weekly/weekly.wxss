@@ -1,0 +1,39 @@
+.movie{
+  display: flex;
+}
+
+.movie-details{
+  display: flex;
+  flex-direction: column;
+  width:550rpx;
+}
+
+.movie-image{
+  width: 230rpx;
+  height: 230rpx;
+}
+
+.movie-swiper{
+  /* 设为页面适口高度的90% */
+  height: 100vh;
+}
+
+.movie-card{
+  height: 100%;
+  width: 100%;
+  background-color: #eee;
+  /* 两个相邻幻灯片间隔10像素 */
+  margin: 10 40rpx;
+  position: relative;
+}
+
+.return-button{
+  position: absolute;
+  right: 5%;
+  top: 40px;
+  font-size: 26rpx;
+  font-style: italic;
+  border: 1px solid blue;
+  border-right: 0;
+  border-radius: 10%;
+}

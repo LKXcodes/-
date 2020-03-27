@@ -1,0 +1,38 @@
+.container {
+  background-color:white;
+  height: 100vh;
+
+  display: flex;  
+  flex-direction: column;
+  /* 使用弹性盒子(灵活)实现从左往右布局 */
+  justify-content: space-around;
+  /* 前后距离均等 */
+  align-items: center;
+  /* 每个text元素作为一个view子元素，去继承了设置 */
+}
+
+.about-banner {
+  width: 375rpx;
+  height: 375rpx;
+  /* 无论是什么屏幕，rpx都视为一半，那么设置为375统一 */
+  border-radius: 50%;
+  /* 设置为圆形，从0-100是从方到圆的过程，一般我们认为过了50%就是圆 */
+}
+
+.about-banner{
+  /* 正常宽、高为750rpx */
+  width: 375rpx;
+  height: 375rpx;
+
+  /* 把图形设为圆形 */
+  border-radius: 50%;
+}
+
+
+.nav-default{
+  color: blue;
+}
+
+.nav-hover{
+  color: red;
+}

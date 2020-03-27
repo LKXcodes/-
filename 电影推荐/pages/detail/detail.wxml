@@ -1,0 +1,13 @@
+
+<view class='container1'>
+
+  <image src='{{movie.result[0].poster}}'></image>
+  <text style='font-weight:bold; font-size:50rpx;'>{{movie.title}}</text>
+  <text>rating：{{movie.result[0].rating}}</text>
+  <text>writers：{{movie.result[0].writers}}</text>
+  <text>genres：{{movie.result[0].genres}}</text>
+  <text>演员：{{movie.result[0].actors}}</text>
+  <text>writers：{{movie.result[0].writers}}</text>
+  <text>plot_simple：{{movie.result[0].plot_simple}}</text>
+
+</view>
